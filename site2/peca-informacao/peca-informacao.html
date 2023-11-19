@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Prefeitura de São Sebastião do Alto</title>
+  </head>
+  <body>
+    <script>
+      function search(){
+        const url = 'https://www.google.com/search?q=site%3A+ssalto.rj.gov.br+' + document.getElementById('search-bar').value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+    </script>
+    <header>
+      <div class="cabecalho">
+        <div class="search">
+          <a href="../index.html"><img class="logo" src="../images/logo.png"></a>
+          <p>Prefeitura de <br>São Sebastião do Alto</p>
+          <div class="input">
+            <input type="text" placeholder="Pesquisar...">
+            <input type="image" src="../images/lupa.png" alt="Search">
+          </div>
+        </div>
+      </div> 
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="dropbtn"><a href="../index.html" style="padding: 10px;"><img src="../images/Home-icon2.png" alt="Home icon"></a>
+          <li class="dropbtn"><a class="dropdown">Administração &#9660</a>
+            <ul>
+              <li><a href="../secretarias-municipais/secretarias-municipais.html">Secretarias municipais</a></li>
+              <li><a href="../processo-seletivo/processo-seletivo.html">Processo seletivo</a></li>
+              <li><a href="../legislacao/legislacao.html">Legislação</a></li>
+            </ul>
+          </li>
+          <li class="dropbtn"><a href="../municipio/municipio.html">O Município</a></li>
+          <li class="dropbtn"><a class="dropdown">Serviços &#9660</a>
+            <ul>
+              <li><a href="http://177.155.185.238:7778/cidadao/servlet/br.com.cetil.ar.jvlle.hatendimento" target="_blank">Portal de atendimento ao cidadão</a></li>
+              <li><a href="http://177.155.185.238:7777/alvaraweb" target="_blank">Alvará online</a></li>
+              <li><a href="http://177.155.185.238:7777/portalservidor#/" target="_blank">Contracheque online</a></li>
+              <li><a href="../nfs-e/nfs-e.html">NFS-e</a></li>
+              <li><a href="https://www.seuiptu.com.br/" target="_blank">IPTU - 2ª via</a></li>
+              <li><a href="http://www.jucerja.rj.gov.br/tax.juntarj/ViabilidadeOpcaoV3.aspx?" target="_blank">JUCERJA regin</a></li>
+              <li><a href="https://webmail-seguro.com.br/ssalto.rj.gov.br/" target="_blank">Webmail</a></li>
+            </ul>
+          </li>
+          <li class="dropbtn"><a class="dropdown">Acesso à informação &#9660</a>
+            <ul>
+              <li><a href="http://ssalto.rj.gov.br/wp-content/uploads/2015/07/lei-municipal-de-acesso-a-informacao.pdf" target="_blank">Lei muncipal de acesso à informação</a></li>
+              <li><a href="http://177.155.185.238:7777/pronimtb/" target="_blank">Portal da transparência</a></li>
+              <li><a href="../licitacoes/licitacoes.html">Licitações</a></li>
+              <li><a href="../audiencias-publicas/audiencias-publicas.html">Audiências públicas</a></li>
+              <li><a href="../entenda-lai/entenda-lai.html">Entenda a lai</a></li>
+              <li><a href="../peca-informacao/peca-informacao.html">Peça uma informação</a></li>
+              <li><a href="../recursos/recursos.html">Recursos: Passo-à-passo</a></li>
+              <li><a href="../saiba-mais/saiba-mais.html">Saiba mais</a></li>
+            </ul>
+          </li>
+          <li class="dropbtn"><a href="https://falabr.cgu.gov.br/publico/RJ/saosebastiaodoalto/Manifestacao/RegistrarManifestacao" target="_blank">Fala.BR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="navbar2-container">
+      <div class="navbar2">
+        <a href="../index.html"><img src="../images/Home-icon.png" alt=""></a>
+        <p>&#9658</p>
+        <p>Peça uma informação</p>
+      </div>
+    </div>
+    <div class="municipio-texto">
+      <div class="municipio-conteudo">
+        <h1>Peça uma informação</h1>
+        <img src="../images/peca-info1.jpg" style="width: 80%; height: auto;" alt="Peça informação 1">
+        <img src="../images/peca-info-2.jpg" style="width: 80%; height: auto;" alt="Peça informação 2">
+        <img src="../images/peca-info-3.jpg" style="width: 80%; height: auto;" alt="Peça informação 3">
+      </div>
+    </div>
+    <iframe src="../footer.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+  </body>
+</html>
